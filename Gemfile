@@ -33,6 +33,11 @@ gem "redis", ">= 4.0.1"
 # Minitest reporters for testing
 gem 'minitest-reporters', '~> 1.1', '>= 1.1.11'
 
+# Guard for automated testing
+gem 'guard', '~> 2.18'
+gem 'guard-minitest', '~> 2.4'
+
+
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
