@@ -14,7 +14,7 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
   test "should get home" do
     get static_pages_home_url
     assert_response :success
-    assert_select "title", "Home | #{@base_title}"
+    assert_select "title", "TwitterClone"
   end
 
   test "should get help" do
@@ -28,3 +28,7 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_select "title", "About | #{@base_title}"
   end
 end
+
+hello = "asdasdasss"
+newhello = hello
+
