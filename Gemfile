@@ -45,6 +45,9 @@ gem 'bootstrap-sass', '~> 3.3'
 
 # controller testing for assert_select
 gem 'rails-controller-testing', '~> 0.0.3'
+
+# bcrypt for password hashing
+gem 'bcrypt', '~> 3.1'
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
