@@ -37,8 +37,8 @@ gem 'minitest-reporters', '~> 1.1', '>= 1.1.11'
 gem 'guard', '~> 2.18'
 gem 'guard-minitest', '~> 2.4'
 
-# Webpacker
-gem 'webpacker'
+# # Webpacker
+# gem 'webpacker', '~> 5.4'
 
 # bootstrap
 gem 'bootstrap-sass', '~> 3.3'
@@ -48,6 +48,9 @@ gem 'rails-controller-testing', '~> 0.0.3'
 
 # bcrypt for password hashing
 gem 'bcrypt', '~> 3.1'
+
+# byebug for debugger
+gem 'byebug', '~> 11.1'
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
