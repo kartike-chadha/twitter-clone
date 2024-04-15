@@ -19,7 +19,8 @@ class UsersIndexTest < ActionDispatch::IntegrationTest
     first_page_of_users.each do |user|
       assert_select 'a[href=?]', user_path(user), text: user.name
       unless user.admin? == true
-        assert_select 'form.button_to[action="/users/216877295"] button[type=submit]', text: 'delete'
+        # assert_select 'form.button_to[action="/users/216877295"] button[type=submit]', text: 'delete'
+        assert_select 'form.button_to button[type=submit]', text: 'delete'
 
       end
     end

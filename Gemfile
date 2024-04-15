@@ -55,6 +55,15 @@ gem 'byebug', '~> 11.1'
 # jquery
 gem 'jquery-rails'
 
+# image nothing
+gem 'active_storage_validations', '~> 1.0', '>= 1.0.4'
+
+# image resizing
+gem 'image_processing', '~> 1.12'
+
+# image resizing
+gem 'mini_magick', '~> 4.12'
+
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
