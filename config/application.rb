@@ -24,6 +24,7 @@ module TwitterClone
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
     config.active_record.verify_foreign_keys_for_fixtures = false
-
+    # Include the authenticity token in remote forms.
+    config.embed_authenticity_token_in_remote_forms = true
   end
 end
